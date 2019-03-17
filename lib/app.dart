@@ -9,6 +9,7 @@ import 'package:implicit_animation_sample/screen/implicitly_animated/animated_pa
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_physical_model.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_positioned.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_positioned_directional.dart';
+import 'package:implicit_animation_sample/screen/implicitly_animated/animated_theme.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/implicitly_animated.dart';
 
 class App extends StatelessWidget {
@@ -31,6 +32,7 @@ class App extends StatelessWidget {
         AnimatedPhysicalModelPage.routeName: (_context) => AnimatedPhysicalModelPage(),
         AnimatedPositionedPage.routeName: (_context) => AnimatedPositionedPage(),
         AnimatedPositionedDirectionalPage.routeName: (_context) => AnimatedPositionedDirectionalPage(),
+        AnimatedThemePage.routeName: (_context) => AnimatedThemePage(),
       }
     );
   }
