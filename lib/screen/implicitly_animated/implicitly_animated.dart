@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_align.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_container.dart';
+import 'package:implicit_animation_sample/screen/implicitly_animated/animated_crossfade.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_default_text_style.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_opacity.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_padding.dart';
@@ -56,6 +57,10 @@ class ImplicitlyAnimatedPage extends StatelessWidget {
           const AppListTile(
             title: "AnimatedTheme",
             nextRouteName: AnimatedThemePage.routeName,
+          ),
+          const AppListTile(
+            title: "AnimatedCrossFade",
+            nextRouteName: AnimatedCrossFadePage.routeName,
           ),
         ],
       ),
