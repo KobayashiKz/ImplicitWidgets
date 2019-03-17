@@ -7,6 +7,7 @@ import 'package:implicit_animation_sample/screen/implicitly_animated/animated_de
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_opacity.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_padding.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_physical_model.dart';
+import 'package:implicit_animation_sample/screen/implicitly_animated/animated_positioned.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/implicitly_animated.dart';
 
 class App extends StatelessWidget {
@@ -27,6 +28,7 @@ class App extends StatelessWidget {
         AnimatedOpacityPage.routeName: (_context) => AnimatedOpacityPage(),
         AnimatedPaddingPage.routeName: (_context) => AnimatedPaddingPage(),
         AnimatedPhysicalModelPage.routeName: (_context) => AnimatedPhysicalModelPage(),
+        AnimatedPositionedPage.routeName: (_context) => AnimatedPositionedPage(),
       }
     );
   }
