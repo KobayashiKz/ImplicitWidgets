@@ -4,6 +4,7 @@ import 'package:implicit_animation_sample/screen/implicitly_animated/animated_al
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_container.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_crossfade.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_default_text_style.dart';
+import 'package:implicit_animation_sample/screen/implicitly_animated/animated_icon.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_opacity.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_padding.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_physical_model.dart';
@@ -61,6 +62,10 @@ class ImplicitlyAnimatedPage extends StatelessWidget {
           const AppListTile(
             title: "AnimatedCrossFade",
             nextRouteName: AnimatedCrossFadePage.routeName,
+          ),
+          const AppListTile(
+            title: "AnimatedIcon",
+            nextRouteName: AnimatedIconPage.routeName,
           ),
         ],
       ),
