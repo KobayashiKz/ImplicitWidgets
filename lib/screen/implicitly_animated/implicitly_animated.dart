@@ -13,6 +13,7 @@ import 'package:implicit_animation_sample/screen/implicitly_animated/animated_po
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_sized.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_switcher.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_theme.dart';
+import 'package:implicit_animation_sample/screen/implicitly_animated/fade_in_image.dart';
 import 'package:implicit_animation_sample/widgets/app_list_tile.dart';
 import 'package:implicit_animation_sample/widgets/app_scaffold.dart';
 
@@ -76,6 +77,10 @@ class ImplicitlyAnimatedPage extends StatelessWidget {
           const AppListTile(
             title: "AnimatedSwitcher",
             nextRouteName: AnimatedSwitcherPage.routeName,
+          ),
+          const AppListTile(
+            title: "FadeInImage",
+            nextRouteName: FadeInImagePage.routeName,
           ),
         ],
       ),

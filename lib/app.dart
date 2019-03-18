@@ -14,6 +14,7 @@ import 'package:implicit_animation_sample/screen/implicitly_animated/animated_po
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_sized.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_switcher.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_theme.dart';
+import 'package:implicit_animation_sample/screen/implicitly_animated/fade_in_image.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/implicitly_animated.dart';
 
 class App extends StatelessWidget {
@@ -41,6 +42,7 @@ class App extends StatelessWidget {
         AnimatedIconPage.routeName: (_context) => AnimatedIconPage(),
         AnimatedSizePage.routeName: (_context) => AnimatedSizePage(),
         AnimatedSwitcherPage.routeName: (_context) => AnimatedSwitcherPage(),
+        FadeInImagePage.routeName: (_context) => FadeInImagePage(),
       }
     );
   }
