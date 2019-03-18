@@ -10,6 +10,7 @@ import 'package:implicit_animation_sample/screen/implicitly_animated/animated_pa
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_physical_model.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_positioned.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_positioned_directional.dart';
+import 'package:implicit_animation_sample/screen/implicitly_animated/animated_sized.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/animated_theme.dart';
 import 'package:implicit_animation_sample/widgets/app_list_tile.dart';
 import 'package:implicit_animation_sample/widgets/app_scaffold.dart';
@@ -66,6 +67,10 @@ class ImplicitlyAnimatedPage extends StatelessWidget {
           const AppListTile(
             title: "AnimatedIcon",
             nextRouteName: AnimatedIconPage.routeName,
+          ),
+          const AppListTile(
+            title: "AnimatedSize",
+            nextRouteName: AnimatedSizePage.routeName,
           ),
         ],
       ),
