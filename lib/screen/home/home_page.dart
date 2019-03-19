@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:implicit_animation_sample/screen/implicitly_animated/implicitly_animated.dart';
+import 'package:implicit_animation_sample/screen/transition/transition_page.dart';
 import 'package:implicit_animation_sample/widgets/app_list_tile.dart';
 import 'package:implicit_animation_sample/widgets/app_scaffold.dart';
 
@@ -14,7 +15,11 @@ class HomePage extends StatelessWidget {
           const AppListTile(
             title: "ImplicitlyAnimated",
             nextRouteName: ImplicitlyAnimatedPage.routeName,
-          )
+          ),
+          const AppListTile(
+            title: "TransitionAnimated",
+            nextRouteName: TransitionPage.routeName,
+          ),
         ],
       ),
     );
