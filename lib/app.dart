@@ -18,6 +18,7 @@ import 'package:implicit_animation_sample/screen/implicitly_animated/fade_in_ima
 import 'package:implicit_animation_sample/screen/implicitly_animated/implicitly_animated.dart';
 import 'package:implicit_animation_sample/screen/transition/align_transition_page.dart';
 import 'package:implicit_animation_sample/screen/transition/decorated_box_transition_page.dart';
+import 'package:implicit_animation_sample/screen/transition/default_text_style_transition.dart';
 import 'package:implicit_animation_sample/screen/transition/transition_page.dart';
 
 class App extends StatelessWidget {
@@ -49,6 +50,7 @@ class App extends StatelessWidget {
         TransitionPage.routeName: (_context) => TransitionPage(),
         AlignTransitionPage.routeName: (_context) => AlignTransitionPage(),
         DecoratedBoxTransitionPage.routeName: (_context) => DecoratedBoxTransitionPage(),
+        DefaultTextStyleTransitionPage.routeName: (_context) => DefaultTextStyleTransitionPage(),
       }
     );
   }
