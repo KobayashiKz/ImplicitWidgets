@@ -22,6 +22,7 @@ import 'package:implicit_animation_sample/screen/transition/default_text_style_t
 import 'package:implicit_animation_sample/screen/transition/fade_transition_page.dart';
 import 'package:implicit_animation_sample/screen/transition/positioned_transition_page.dart';
 import 'package:implicit_animation_sample/screen/transition/rotation_transition_page.dart';
+import 'package:implicit_animation_sample/screen/transition/scale_transition_page.dart';
 import 'package:implicit_animation_sample/screen/transition/siza_transition_page.dart';
 import 'package:implicit_animation_sample/screen/transition/transition_page.dart';
 
@@ -59,6 +60,7 @@ class App extends StatelessWidget {
         PositionedTransitionPage.routeName: (_context) => PositionedTransitionPage(),
         RotationTransitionPage.routeName: (_context) => RotationTransitionPage(),
         SizeTransitionPage.routeName: (_context) => SizeTransitionPage(),
+        ScaleTransitionPage.routeName: (_context) => ScaleTransitionPage(),
       }
     );
   }
