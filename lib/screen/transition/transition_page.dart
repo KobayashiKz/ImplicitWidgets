@@ -8,6 +8,7 @@ import 'package:implicit_animation_sample/screen/transition/positioned_transitio
 import 'package:implicit_animation_sample/screen/transition/rotation_transition_page.dart';
 import 'package:implicit_animation_sample/screen/transition/scale_transition_page.dart';
 import 'package:implicit_animation_sample/screen/transition/siza_transition_page.dart';
+import 'package:implicit_animation_sample/screen/transition/slide_transition_page.dart';
 import 'package:implicit_animation_sample/widgets/app_list_tile.dart';
 import 'package:implicit_animation_sample/widgets/app_scaffold.dart';
 
@@ -51,6 +52,10 @@ class TransitionPage extends StatelessWidget {
           const AppListTile(
             title: "ScaleTransition",
             nextRouteName: ScaleTransitionPage.routeName,
+          ),
+          const AppListTile(
+            title: "SlideTransition",
+            nextRouteName: SlideTransitionPage.routeName,
           ),
         ],
       ),
