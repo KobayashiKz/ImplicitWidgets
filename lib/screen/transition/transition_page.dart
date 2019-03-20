@@ -4,6 +4,7 @@ import 'package:implicit_animation_sample/screen/transition/align_transition_pag
 import 'package:implicit_animation_sample/screen/transition/decorated_box_transition_page.dart';
 import 'package:implicit_animation_sample/screen/transition/default_text_style_transition.dart';
 import 'package:implicit_animation_sample/screen/transition/fade_transition_page.dart';
+import 'package:implicit_animation_sample/screen/transition/positioned_transition_page.dart';
 import 'package:implicit_animation_sample/widgets/app_list_tile.dart';
 import 'package:implicit_animation_sample/widgets/app_scaffold.dart';
 
@@ -31,6 +32,10 @@ class TransitionPage extends StatelessWidget {
           const AppListTile(
             title: "FadeTransition",
             nextRouteName: FadeTransitionPage.routeName,
+          ),
+          const AppListTile(
+            title: "PositionedTransition",
+            nextRouteName: PositionedTransitionPage.routeName,
           ),
         ],
       ),
